@@ -1,1 +1,1 @@
-# sample-app
+Sample application for CRUD Operation
