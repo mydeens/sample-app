@@ -9,11 +9,11 @@ group :production do
   gem 'pg'
   # Use unicorn as the app server
   gem 'unicorn', '~> 5.3'
+  gem 'rails_12factor'
 end
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
   gem 'thin'
-  gem 'bullet'
 end
 
 # Gems used only for assets and not required
