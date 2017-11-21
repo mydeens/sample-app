@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.22'
 
-ruby '1.9.3'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -14,8 +12,9 @@ group :production do
   gem 'rails_12factor'
 end
 group :development, :test do
-  gem 'pg'
+  gem 'sqlite3'
   gem 'thin'
+  gem 'bullet'
 end
 
 # Gems used only for assets and not required
