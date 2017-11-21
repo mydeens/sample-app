@@ -1,8 +1,6 @@
 {
   "name": "sample-app",
   "scripts": {
-    "test-setup": "gem install rubocop",
-    "test": "rubocop ."
   },
   "env": {
     "LANG": {
