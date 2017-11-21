@@ -1,19 +1,25 @@
 {
   "name": "sample-app",
   "scripts": {
+    "test-setup": "gem install rubocop",
+    "test": "rubocop ."
   },
   "env": {
     "LANG": {
-      "required": true
+      "required": false
     },
     "RACK_ENV": {
-      "required": true
+      "required": false
     },
     "RAILS_ENV": {
-      "required": true
+      "required": false
     }
   },
   "formation": {
+    "test": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
   },
   "addons": [
     "heroku-postgresql"
