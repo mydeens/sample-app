@@ -12,9 +12,8 @@ group :production do
   gem 'rails_12factor'
 end
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
   gem 'thin'
-  gem 'bullet'
 end
 
 # Gems used only for assets and not required
