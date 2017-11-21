@@ -4,13 +4,13 @@
   },
   "env": {
     "LANG": {
-      "required": false
+      "required": true
     },
     "RACK_ENV": {
-      "required": false
+      "required": true
     },
     "RAILS_ENV": {
-      "required": false
+      "required": true
     }
   },
   "formation": {
